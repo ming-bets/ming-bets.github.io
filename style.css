@@ -1,0 +1,245 @@
+:root {
+  --bg: #0a0a0b;
+  --bg-alt: #121214;
+  --card-bg: rgba(9, 9, 11, 0.6);
+  --accent: #10b981;
+  --accent-2: #ef4444;
+  --text: #f4f4f5;
+  --text-dim: #a1a1aa;
+  --border: rgba(63, 63, 70, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-alt);
+  color: var(--text);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: linear-gradient(rgba(63, 63, 70, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(63, 63, 70, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 48px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  --x: 0px;
+  --scale: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70vw;
+  height: 80vh;
+  padding: 2px;
+  border-radius: 24px;
+  transform: translate(-50%, -50%) translateX(var(--x)) scale(var(--scale));
+  transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1),
+    filter 0.5s ease, opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.card.is-active {
+  z-index: 30;
+  filter: blur(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.card.is-prev,
+.card.is-next {
+  z-index: 20;
+  filter: blur(4px);
+  opacity: 0.45;
+}
+
+.card.is-hidden {
+  z-index: 0;
+  opacity: 0;
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 40px 38px;
+  height: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card.is-active .card-inner {
+  border-color: rgba(16, 185, 129, 0.4);
+  background: #18181b;
+  box-shadow: 0 25px 60px -8px rgba(16, 185, 129, 0.25), 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card-championship {
+  text-align: center;
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.card-date {
+  text-align: center;
+  margin: 0 0 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  letter-spacing: 0.3px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 4px 0 20px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card-logo {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.card-vs {
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-subtitle {
+  text-align: center;
+  margin: 0 0 24px;
+  padding: 12px 18px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+}
+
+.card-market {
+  color: var(--text);
+}
+
+.card-odds {
+  color: #34d399;
+}
+
+.card-body {
+  color: var(--text-dim);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.card-body p {
+  margin: 0 0 12px;
+}
+
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 16px 0 0;
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 40;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(24, 24, 27, 0.8);
+  color: var(--text);
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.carousel-nav:hover {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.4);
+}
+
+.carousel-nav--prev {
+  left: 12px;
+}
+
+.carousel-nav--next {
+  right: 12px;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 92vw;
+    height: 80vh;
+  }
+  .carousel-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+}

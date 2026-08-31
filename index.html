@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MING AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="carousel" id="carousel" aria-label="Match predictions carousel">
+      <button class="carousel-nav carousel-nav--prev" id="prevBtn" aria-label="Previous match">&#8249;</button>
+
+      <div class="carousel-track" id="carouselTrack"></div>
+
+      <button class="carousel-nav carousel-nav--next" id="nextBtn" aria-label="Next match">&#8250;</button>
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-inner">
+        <p class="card-championship"></p>
+        <p class="card-date"></p>
+        <h2 class="card-title">
+          <span class="card-team card-team--a"></span>
+          <span class="card-vs">X</span>
+          <span class="card-team card-team--b"></span>
+        </h2>
+        <p class="card-subtitle">
+          <span class="card-market"></span> - <span class="card-odds"></span>
+        </p>
+        <div class="card-body"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
