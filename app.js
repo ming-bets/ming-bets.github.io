@@ -2,6 +2,22 @@
   const MATCHES = [
     {
       id: "m1",
+      date: "2026-09-02T23:30:00",
+      championship: "Brasileirão, Serie A",
+      teamA: { name: "Flamengo", logo: "https://img.sofascore.com/api/v1/team/40/image" },
+      teamB: { name: "Mirassol", logo: "https://img.sofascore.com/api/v1/team/42/image" },
+      market: "Flamengo && Total Goals Under 3.5",
+      odds: "1.81",
+      paragraphs: [
+        "Flamengo have the clear advantage: they are strong at home, have won 7 of 11 home matches, and have never lost to Mirassol in their last 3 meetings.",
+        "The recent H2H also favours Flamengo heavily — they won the latest meeting 5 to 1 and have scored 10 goals in the last 3 H2Hs.",
+        "However, Flamengo's defensive strength and Mirassol's lower scoring output make a controlled Flamengo victory more likely than another goal-fest.",
+        "The model gives Flamengo 63% to win and expects roughly 1.74 to 0.67 goals.",
+      ],
+      image: "./assets/september/2026-09-02.png"
+    },
+    {
+      id: "m2",
       date: "2026-09-01T18:30:00",
       championship: "Austrian Bundesliga",
       teamA: { name: "Wolfsberger AC", logo: "https://img.sofascore.com/api/v1/team/40/image" },
