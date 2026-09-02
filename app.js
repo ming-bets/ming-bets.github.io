@@ -1,11 +1,26 @@
 (function () {
   const MATCHES = [
     {
-      id: "m1",
+      id: "m3",
+      date: "2026-09-03T19:30:00",
+      championship: "Belgium Pro League",
+      teamA: { name: "Anderlecht" },
+      teamB: { name: "Kortrijk" },
+      market: "Anderlecht && Total Goals Over 1.5",
+      odds: "1.68",
+      paragraphs: [
+        "Anderlecht have had a mixed start to the season, but their attacking numbers are encouraging averaging 15.5 shots and 6.5 shots on target per game, showing they are creating enough opportunities.",
+        "Kortrijk have struggled early in the season, scoring just 1 goal in 3 games, making them the weaker attacking side and increasing the likelihood of an Anderlecht-controlled match.",
+        "With Anderlecht conceding 5 goals in their first 3 games and Kortrijk struggling defensively, a 2-0/2-1 or 3-0 result is realistic.",
+      ],
+      image: "./assets/september/2026-09-03.png"
+    },
+    {
+      id: "m2",
       date: "2026-09-02T23:30:00",
       championship: "Brasileirão, Serie A",
-      teamA: { name: "Flamengo", logo: "https://img.sofascore.com/api/v1/team/40/image" },
-      teamB: { name: "Mirassol", logo: "https://img.sofascore.com/api/v1/team/42/image" },
+      teamA: { name: "Flamengo" },
+      teamB: { name: "Mirassol" },
       market: "Flamengo && Total Goals Under 3.5",
       odds: "1.81",
       paragraphs: [
@@ -17,11 +32,11 @@
       image: "./assets/september/2026-09-02.png"
     },
     {
-      id: "m2",
+      id: "m1",
       date: "2026-09-01T18:30:00",
       championship: "Austrian Bundesliga",
-      teamA: { name: "Wolfsberger AC", logo: "https://img.sofascore.com/api/v1/team/40/image" },
-      teamB: { name: "LASK Linz", logo: "https://img.sofascore.com/api/v1/team/42/image" },
+      teamA: { name: "Wolfsberger AC" },
+      teamB: { name: "LASK Linz" },
       market: "Total Goals Away Over 1.5",
       odds: "1.65",
       paragraphs: [
