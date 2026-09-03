@@ -1,6 +1,22 @@
 (function () {
   const MATCHES = [
     {
+      id: "m4",
+      date: "2026-09-04T19:45:00",
+      championship: "Italy, Serie A",
+      teamA: { name: "Genoa" },
+      teamB: { name: "Como" },
+      market: "Como",
+      odds: "1.84",
+      paragraphs: [
+        "Como have the much stronger start: 4 points from 2 Serie A matches, including an impressive 2 to 1 away win at Napoli, while Genoa have 0 points and 0 goals after defeats to Napoli and Lazio.",
+        "The key for me is the underlying matchup. Genoa have failed to score in both league games, whereas Como have already scored 3 goals, including twice against Napoli.",
+        "A statistical model gives Como a 49% win probability, equivalent to fair odds around 2.04, while the available market is around 1.85.",
+        "That means the value isn't enormous, but the price is still playable given the contrasting form.",
+      ],
+      image: "./assets/september/2026-09-04.png"
+    },
+    {
       id: "m3",
       date: "2026-09-03T19:30:00",
       championship: "Belgium Pro League",
