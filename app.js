@@ -1,6 +1,23 @@
 (function () {
   const MATCHES = [
     {
+      id: "m5",
+      date: "2026-09-05T17:00:00",
+      championship: "Italy, Serie A",
+      teamA: { name: "Inter Milan" },
+      teamB: { name: "Napoli" },
+      market: "Inter Milan && Total Goals Under 4.5",
+      odds: "1.88",
+      paragraphs: [
+        "The method for generating expected goals and other match metrics involves averaging the recent scoring and conceding rates of the home team and the away team, respectively. These averages are then used to calculate the expected number of goals and probabilities for over/under goals, both-team-to-score, and match result outcomes. The method also isolates the influence of individual team attributes such as attacking and defensive performance to determine their impact on the match's outcome.",
+        "For Inter, the key root inputs are their recent form (Avg scored 2.10, Avg conceded 1.00) and their goal conversion (Avg shots 16.3, Shots on target % 33.1%, Goals per shot % 12.9%). The home team's conceding rate (1.00) is notably lower than the matchup average (1.10), suggesting Inter might be a tougher opponent to score against, which could lead to fewer goals overall.",
+        "Napoli's root inputs include their recent form (Avg scored 2.10, Avg conceded 1.20), which is consistent with the matchup average, and their goal conversion (Avg shots 12.8, Shots on target % 34.4%, Goals per shot % 14.1%). The away team's attacking form (1.20) is slightly higher than the matchup average, which could indicate they might score more goals, though the overall game outcome probabilities suggest Inter may still be favored.",
+        "Inter's defensive performance stands out as a key factor in the matchup, as evidenced by their conceding form being significantly below the average, which aligns with the model's prediction of fewer total goals. This suggests Inter's defense might be more effective against Napoli, which could tilt the balance slightly in their favor.",
+        "The total-goals estimate of 3.20 is slightly higher than the historical average, favoring a total under outcome, which is also aligned with the historical probabilities of over 1.5 goals. Therefore, based on the specific numbers and the isolation effects, the model slightly favors Inter and predicts a total under outcome."
+      ],
+      image: "./assets/september/2026-09-05.png"
+    },
+    {
       id: "m4",
       date: "2026-09-04T19:45:00",
       championship: "Italy, Serie A",
