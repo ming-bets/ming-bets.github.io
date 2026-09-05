@@ -1,6 +1,23 @@
 (function () {
   const MATCHES = [
     {
+      id: "m6",
+      date: "2026-09-06T15:15:00",
+      championship: "Spain, La Liga",
+      teamA: { name: "Valencia" },
+      teamB: { name: "Barcelona" },
+      market: "Barcelon Total Goals Over 2.5",
+      odds: "1.88",
+      paragraphs: [
+        "The method used in this prediction involves taking a team's recent performance and form, blending it with their own average form, and incorporating factors like home or away venue, recent xG and shots on target figures, table position gap, head-to-head history, and rest days. These inputs are then used to adjust the expected goals for each team and predict the total number of goals, as well as the match result. The weights for each factor are chosen by the user, ranging from 0% (turning off the adjustment) to 100% (full strength).",
+        "For Valencia, the recent performance and form are key inputs. Their 10-match average of 1.00 goals conceded suggests a defensively solid team, which is reinforced by their home venue average of 0.65 goals conceded. FC Barcelona, with a 10-match average of 3.39 goals scored, has a more offensive style, indicated by their 5-match away venue average of 2.85 goals scored.",
+        "FC Barcelona's offensive style is further supported by their 5-match away venue average of 5.70 shots on target, indicating they are more likely to be aggressive in attack. Valencia's 10-match average of 5.70 shots on target suggests they are also quite aggressive, but their defensive strength is highlighted by their home venue average of 2.85 goals conceded. The table position gap and head-to-head history are also considered.",
+        "The computed expected goals and overall goal distribution models favor FC Barcelona. The isolated effects show that a higher weight on FC Barcelona's offensive style (home team style) and their more aggressive offensive approach through shots on target (away team style) would result in a higher expected goals for them. The total-goals estimate is 3.58, leaning slightly over, which aligns with FC Barcelona's more offensive nature and aggressive play style.",
+        "The total-goals estimate of 3.20 is slightly higher than the historical average, favoring a total under outcome, which is also aligned with the historical probabilities of over 1.5 goals. Therefore, based on the specific numbers and the isolation effects, the model slightly favors Inter and predicts a total under outcome."
+      ],
+      image: "./assets/september/2026-09-06.png"
+    },
+    {
       id: "m5",
       date: "2026-09-05T17:00:00",
       championship: "Italy, Serie A",
