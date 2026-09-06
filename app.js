@@ -1,6 +1,23 @@
 (function () {
   const MATCHES = [
     {
+      id: "m7",
+      date: "2026-09-07T18:00:00",
+      championship: "Denmark, Superliga",
+      teamA: { name: "Midtjylland " },
+      teamB: { name: "Nordsjaelland" },
+      market: "Nordsjaelland or Draw",
+      odds: "1.85",
+      paragraphs: [
+        "The method used blends recent scoring and conceding averages to predict expected goals for a match. For this matchup, FC Midtjylland is the home team and FC Nordsjælland is the away team. The expected goals are calculated as the average of the home team's scoring rate and the away team's conceding rate.",
+        "The root inputs include each team's recent form, goal conversion rates, and the overall form in their own and the opponent's home/away venues. The resulting probabilities are based on historical trends and the isolated effect of each raw input compared to the specific matchup's average.",
+        "For FC Midtjylland, the relevant root inputs are their scoring and conceding forms. Their scoring form at home is relatively weak compared to the overall form, while their conceding form is slightly better. Their goal conversion rates are also relatively poor, with a lower goals per shot percentage.",
+        "FC Nordsjælland, as the away team, has a strong scoring form but a weaker conceding form. Their goal conversion rates indicate they are efficient in scoring but less so in preventing goals against.",
+        "The isolated effect analysis suggests that FC Midtjylland's home form is the most critical factor favoring them. Their scoring form is weaker than expected, but their conceding form is slightly better than expected. FC Nordsjælland, on the other hand, has a stronger scoring form but their conceding form is also better than expected. However, the total-goals estimate leans over, indicating a likely total goals count under 2.5. This conclusion is supported by the historical data showing FC Midtjylland's lower expected over 1.5 goals, while FC Nordsjælland's expected over 1.5 goals are closer to their historical average."
+      ],
+      image: "./assets/september/2026-09-07.png"
+    },
+    {
       id: "m6",
       date: "2026-09-06T15:15:00",
       championship: "Spain, La Liga",
