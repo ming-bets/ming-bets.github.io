@@ -1,6 +1,23 @@
 (function () {
   const MATCHES = [
     {
+      id: "m8",
+      date: "2026-09-08T20:00:00",
+      championship: "Europw, UEFA Champions League",
+      teamA: { name: "Borussia Dortmund " },
+      teamB: { name: "Villareal" },
+      market: "Borussia Dortmund or Draw && Total Goals Over 2.5",
+      odds: "1.85",
+      paragraphs: [
+        "The method described uses recent performance data, including goal-scoring and conceding averages, to predict the expected number of goals in a match. Teams' attack and defence figures are adjusted based on recent form and home/away-specific tendencies. The home team's home venue advantage, recent xG (expected goals), and shots on target numbers are considered. Head-to-head results are also taken into account.",
+        "For Borussia Dortmund, the key factors influencing the match outcome and goals are their recent performance (average of 0.98 goals scored per match and 2.30 conceded per match), their home venue advantage, and their offensive team style. These elements collectively support a higher expectation of goals scored by Dortmund.",
+        "Villarreal, on the other hand, is not expected to score any goals based on their recent performance (average of 0.00 goals scored per match and 3.00 conceded per match) and their away venue disadvantage. Their defensive team style suggests they may struggle to score against a more offensive opponent. The form gap and recent xG and shots on target figures also point towards a favorable outcome for Dortmund.",
+        "Given the significant head-to-head advantage and the recent xG and shots on target figures, the model leans heavily towards a positive outcome for Borussia Dortmund. The computed expected goals favor Borussia Dortmund, indicating they are likely to score more than Villarreal, with a total-goals estimate suggesting the match will likely go over the 1.5 goals line.",
+        "The model's probability for over/under 1.5 goals, based on historical data and the team's recent form, also supports this conclusion. The overall probability that Borussia Dortmund will win the match is also higher, at 67.8%, which aligns with the expected goals and head-to-head advantage computed."
+      ],
+      image: "./assets/september/2026-09-08.png"
+    },
+    {
       id: "m7",
       date: "2026-09-07T18:00:00",
       championship: "Denmark, Superliga",
