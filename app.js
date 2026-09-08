@@ -1,6 +1,22 @@
 (function () {
   const MATCHES = [
     {
+      id: "m9",
+      date: "2026-09-09T17:45:00",
+      championship: "Europw, UEFA Champions League",
+      teamA: { name: "Stuttgart" },
+      teamB: { name: "Viking" },
+      market: "Total Goals Over 3.5",
+      odds: "1.77",
+      paragraphs: [
+        "VfB Stuttgart's recent form (3.40 scored, 1.40 conceded) is above the average (2.70 scored, 1.25 conceded) in both categories, which could favor them.However, their recent scoring (3.40) is slightly higher than the average of 2.70, which might push their expected goals higher.",
+        "Viking FK's recent form (2.00 scored, 1.10 conceded) is below the average (2.70 scored, 1.25 conceded) in both categories, which could slightly favor VfB Stuttgart.Their recent scoring (2.00) is below the average of 2.70, which might push their expected goals lower.",
+        "Based on the computed results and the isolated effect of raw inputs, VfB Stuttgart seems to be favored slightly. Their higher scoring form (3.40 vs. 2.70 average) and lower conceding form (1.40 vs. 1.25 average) suggest they might score more goals.",
+        "The total-goals estimate is slightly over 3.95, leaning over 1.5 goals, favoring VfB Stuttgart. The historical data for both over/under and both teams to score probabilities also support this favoring, indicating VfB Stuttgart has a better chance of scoring more goals than the opponent."
+      ],
+      image: "./assets/september/2026-09-09.png"
+    },
+    {
       id: "m8",
       date: "2026-09-08T20:00:00",
       championship: "Europw, UEFA Champions League",
