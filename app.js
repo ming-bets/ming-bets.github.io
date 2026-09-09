@@ -1,9 +1,26 @@
 (function () {
   const MATCHES = [
     {
+      id: "m10",
+      date: "2026-09-10T20:00:00",
+      championship: "Europe, UEFA Champions League",
+      teamA: { name: "Bayern Munchen" },
+      teamB: { name: "Bodo/Glimt" },
+      market: "Bayern Munchen && BTTS Yes",
+      odds: "1.85",
+      paragraphs: [
+        "For FC Bayern München, the factors that seem most important are their recent scoring form and their own goal conversion rates. Their 3.80 goals scored per game is 0.35 higher than the matchup average of 3.45, which is a significant factor given their high shot conversion rate of 39.4%.",
+        "Additionally, their goal conversion rates suggest they should score slightly more than their recent form might indicate.",
+        "Bodø/Glimt, on the other hand, has a relatively low scoring form of 3.10 goals scored per game, which is 0.35 lower than the matchup average. Their shot conversion rates are also slightly lower than the average, which could be a factor in their recent form not being as high as expected.",
+        "The computed results show that FC Bayern München has a slight advantage in terms of total goals, with their expected goals at 2.40 compared to Bodø/Glimt's 2.05. However, the conclusion leans more towards an under total, with the expected distribution favoring fewer than 2.5 goals (82.1% chance of Over 2.5).",
+        "This suggests that although FC Bayern München is expected to score more goals, the away team's recent form and lower goal conversion rates could prevent FC Bayern München from exceeding the expected 2.5 goals total. Therefore, the data supports the conclusion that the match is more likely to be an under, with a slight preference for FC Bayern München to score."
+      ],
+      image: "./assets/september/2026-09-10.png"
+    },
+    {
       id: "m9",
       date: "2026-09-09T17:45:00",
-      championship: "Europw, UEFA Champions League",
+      championship: "Europe, UEFA Champions League",
       teamA: { name: "Stuttgart" },
       teamB: { name: "Viking" },
       market: "Total Goals Over 3.5",
