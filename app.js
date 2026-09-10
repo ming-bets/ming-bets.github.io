@@ -1,6 +1,22 @@
 (function () {
   const MATCHES = [
     {
+      id: "m11",
+      date: "2026-09-11T19:45:00",
+      championship: "Belgium",
+      teamA: { name: "Mechelen" },
+      teamB: { name: "Anderlecht" },
+      market: "Anderlecht && Total Goals Over 1.5",
+      odds: "2.22",
+      paragraphs: [
+        "For the home team, KV Mechelen, the recent scoring and conceding averages are quite different from those of the away team (RSC Anderlecht). KV Mechelen has a better recent scoring record and a higher xG and shots on target per match than RSC Anderlecht. The home advantage and venue-specific form are also weighted heavily, suggesting that playing at home might give KV Mechelen an advantage.",
+        "RSC Anderlecht, as the away team, has a lower scoring record and a higher conceding record. However, they have a strong recent performance, indicated by their recent xG and shots on target per match, which could be advantageous in an away game. The table position gap between the two teams is also significant, with Anderlecht being ranked 4 places higher, giving them a slight home advantage.",
+        "Based on the computed results, the isolated effect of home advantage and venue-specific form seems to slightly favor KV Mechelen, as it increases the probability of winning and the total goals over the neutral comparison model. However, the isolated effect of the head-to-head blend is very close to zero, suggesting that the head-to-head history between the teams does not significantly shift the probabilities.",
+        "The expected total goals for the match are slightly above the neutral case, leaning slightly over (2.85 vs 3.05), which can be interpreted as favoring the away team in terms of goal count. Therefore, the numbers favor RSC Anderlecht in terms of the match result, although the goal count is slightly in favor of the home team."
+      ],
+      image: "./assets/september/2026-09-11.png"
+    },
+    {
       id: "m10",
       date: "2026-09-10T20:00:00",
       championship: "Europe, UEFA Champions League",
