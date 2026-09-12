@@ -1,9 +1,24 @@
 (function () {
   const MATCHES = [
     {
+      id: "m12",
+      date: "2026-09-12T18:00:00",
+      championship: "Portugal, Liga Betclic",
+      teamA: { name: "Casa Pia" },
+      teamB: { name: "Porto" },
+      market: "Porto && Total Goals Over 2.5",
+      odds: "1.9",
+      paragraphs: [
+        "For the home team, Casa Pia, the recent form is a key factor. They have scored 0 goals and conceded 1.42 in their last 5 matches, playing at home. Their defensive style might reduce their scoring opportunities, which is plausible given the high average conceded in their form. The regression towards recent xG and shots-on-target numbers is also likely to be relevant since they have conceded more goals than they have scored in their recent form. The home advantage is another strong factor, given they are the home team and have a win rate of 80% in their home matches.",
+        "For the away team, FC Porto, their form is equally strong with a 2.26 goal-scoring rate and a 0.40 conceded rate in their last 5 away matches. Their offense is dominant, evidenced by their high goal-scoring rate and low conceded rate. Their offensive style might increase the chances of scoring against a more defensive home team. The regression towards their recent xG and shots-on-target numbers could also be significant for FC Porto, as they have had higher xG and shots-on-target numbers in their recent matches compared to their conceded numbers. The venue-specific form is positive for them, as they have scored more goals on their away venues compared to their home venues. Their recent league position gap of -17 indicates that they are in a higher position in the league than their opponent, which could be factored in as a positive home advantage for them.",
+        "Given the home team's defensive style and the away team's offensive style, the regression towards recent xG and shots-on-target numbers appears to be the most influential factor in the context of this match. Casa Pia's defensive approach might limit their scoring opportunities, which is reinforced by their recent conceding rate. On the other hand, FC Porto's offensive performance, evidenced by their scoring rate and fewer goals conceded, suggests they are more likely to score against a more defensively oriented home team. The xG and shots-on-target regression, combined with the defensive nature of Casa Pia and the offensive nature of FC Porto, suggests that the expected goals and total goals should lean over. The model predicts a total of 3.03 goals, which aligns with the historical data showing a preference for fewer goals, as over 1.5 and under 1.5 probabilities suggest a preference for the latter, and the over 2.5 and under 2.5 probabilities align with historical data, which leans over."
+      ],
+      image: "./assets/september/2026-09-12.png"
+    },
+    {
       id: "m11",
       date: "2026-09-11T19:45:00",
-      championship: "Belgium",
+      championship: "Belgium, Pro League",
       teamA: { name: "Mechelen" },
       teamB: { name: "Anderlecht" },
       market: "Anderlecht && Total Goals Over 1.5",
