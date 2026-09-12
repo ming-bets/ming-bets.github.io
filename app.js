@@ -1,6 +1,21 @@
 (function () {
   const MATCHES = [
     {
+      id: "m13",
+      date: "2026-09-13T20:30:00",
+      championship: "Portugal, Liga Betclic",
+      teamA: { name: "Famalicao" },
+      teamB: { name: "Sporting" },
+      market: "Sporting && Total Goals Over 1.5",
+      odds: "1.8",
+      paragraphs: [
+        "For the home team (Famalicão), recent scoring and conceding averages are key inputs, with their home venue-specific averages also playing a significant role. The recent xG and shots-on-target figures are blended in, along with the team style setting and historical rates. The home advantage, league table position gap, and rest days advantage are also applied.",
+        "For the away team (Sporting CP), recent scoring and conceding averages are important, especially considering their away venue-specific averages. The recent xG and shots-on-target figures are blended in, along with the team style setting and historical rates. The home advantage, league table position gap, and rest days advantage are also applied.",
+        "Given the computed results, the home team (Famalicão) is favored slightly over the away team (Sporting CP). The total-goals estimate is around 1.72, leaning slightly over the 1.5 goal line. The isolated effect of each non-default weight supports this conclusion.",
+      ],
+      image: "./assets/september/2026-09-13.png"
+    },
+    {
       id: "m12",
       date: "2026-09-12T18:00:00",
       championship: "Portugal, Liga Betclic",
