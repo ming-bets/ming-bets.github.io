@@ -1,6 +1,22 @@
 (function () {
   const MATCHES = [
     {
+      id: "m14",
+      date: "2026-09-14T17:30:00",
+      championship: "Italy, Serie A",
+      teamA: { name: "Como" },
+      teamB: { name: "Parma" },
+      market: "Como && BTTS No",
+      odds: "1.75",
+      paragraphs: [
+        "The home team's recent form shows they are scoring more goals (2.66) and conceding fewer (0.90) compared to their average, which suggests they are in an offensive position. However, the Parma team, which is playing away, shows a more defensive stance, with them scoring less and conceding more. Additionally, the home team has a larger gap in league position compared to the away team, indicating they might have a slight advantage.",
+        "The away team's form is more defensive, as they only scored 0.47 goals and conceded 1.11 in their recent matches. They play at an away venue where they have scored almost no goals and conceded many. This defensive stance might make it harder for them to score goals. Furthermore, the home team's larger league position gap also favors them.",
+        "Considering the home team's offensive form and the away team's more defensive stance, the overall expected goals model suggests a slight bias towards the home team (Como). The isolated effect of the home advantage (65%) and the gap in league positions (80%) both point towards a higher probability of Como scoring more goals.",
+        "The total expected goals of 1.92 favor the home team, but the over/under goal line (1.5) leans under, indicating that more than one goal might be unlikely. Thus, the numbers favor the home team, with the match likely to be a lower-scoring affair, tipping the total goal count slightly over the 1.5 goal line in favor of the home team."
+      ],
+      image: "./assets/september/2026-09-14.png"
+    },
+    {
       id: "m13",
       date: "2026-09-13T20:30:00",
       championship: "Portugal, Liga Betclic",
