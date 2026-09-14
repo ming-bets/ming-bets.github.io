@@ -1,6 +1,21 @@
 (function () {
   const MATCHES = [
     {
+      id: "m15",
+      date: "2026-09-15T20:30:00",
+      championship: "Spain, La Liga",
+      teamA: { name: "Elche" },
+      teamB: { name: "Real Madrid" },
+      market: "Total Goals Over 3.5",
+      odds: "1.83",
+      paragraphs: [
+        "For the home team, Elche, the form window of the last 5 matches is particularly crucial. They have been scoring 1.30 goals per game and conceding 2.40, showing they are capable of scoring but also have a decent defense. Their offensive style is also set, adding to their expected goals.Elche's recent xG is 1.23, which aligns with their form, suggesting they are performing as expected.",
+        "For the away team, Real Madrid, the recent form window is also 5 matches, and they have been scoring 2.81 goals per game and conceding 0.82. Their defensive strength is highlighted by their average conceding, but their offensive style being offensive could indicate their ability to score against weaker teams. Real Madrid's xG is 2.92, which is above their recent performance, suggesting they may be overperforming in this match. Their shots on target per match is 9.20, suggesting they are a strong attacking team, but their current situation might not be translating into actual goals.",
+        "The total-goals estimate leans over, with Elche's expected goals of 1.32 at home and Real Madrid's of 3.36 on the road making the total 4.68 expected goals."
+      ],
+      image: "./assets/september/2026-09-15.png"
+    },
+    {
       id: "m14",
       date: "2026-09-14T17:30:00",
       championship: "Italy, Serie A",
