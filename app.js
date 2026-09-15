@@ -1,6 +1,22 @@
 (function () {
   const MATCHES = [
     {
+      id: "m16",
+      date: "2026-09-16T20:00:00",
+      championship: "UEFA, Europe League",
+      teamA: { name: "Anderlecht" },
+      teamB: { name: "Lyon" },
+      market: "Lyon/Draw && Total Goals Under 3.5",
+      odds: "2.08",
+      paragraphs: [
+        "For the home team, RSC Anderlecht, the form window includes recent matches with an average of 0.79 goals scored and 0.36 conceded. Their home venue averages 0.82 goals scored and 0.00 conceded over 3 home matches, indicating they tend to perform well at home. Their xG and shots-on-target figures of 1.15 and 4.40 respectively, combined with their balanced home style, suggest they could have a strong expected goals output.",
+        "For the away team, Olympique Lyonnais, the form window includes recent matches with an average of 1.22 goals scored and 0.67 conceded. Their away venue averages 0.36 goals scored and 0.00 conceded over 2 away matches, indicating they struggle more away from home. Their xG and shots-on-target figures of 1.45 and 4.40 respectively, combined with their balanced away style, suggest they could have a strong expected goals output.",
+        "The computed expected goals for the match favor RSC Anderlecht. The model predicts a home advantage of about 0.4 goals (0.027 expected goals converted into 0.4 goals based on the average conversion rate of expected goals to actual goals) due to the league table position gap of -6 (RSC Anderlecht is ranked 6 positions higher than Olympique Lyonnais).",
+        "Despite this, the model's output suggests RSC Anderlecht should win or draw comfortably, with the total goals expected to be around 1.08. Given this, the total-goals estimate leans under the expected 3.5 goals, favoring a match that could result in both teams scoring or under 2.5 goals. This conclusion is supported by the model's predictions and historical data, which both lean towards a lower total goal count."
+      ],
+      image: "./assets/september/2026-09-16.png"
+    },
+    {
       id: "m15",
       date: "2026-09-15T20:30:00",
       championship: "Spain, La Liga",
