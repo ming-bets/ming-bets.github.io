@@ -1,6 +1,21 @@
 (function () {
   const MATCHES = [
     {
+      id: "m17",
+      date: "2026-09-17T17:45:00",
+      championship: "UEFA, Europe League",
+      teamA: { name: "OFI Crete" },
+      teamB: { name: "Hoffenheim" },
+      market: "Hoffenheim && Total Goals Over 2.5",
+      odds: "1.88",
+      paragraphs: [
+        "For the home team, OFI Crete, the relevant factors are their recent form, which includes both scoring and conceding averages, and their defensive strength, indicated by the away venue averages. The recent scoring average (1.63) is lower than the away venue scoring (2.59), suggesting they might be a stronger defensive force at home. Their conceding average (0.20) is notably higher than the away venue conceding (0.00), indicating they may concede more goals at home.",
+        "For the away team, TSG Hoffenheim, the relevant factors are their recent form, which includes both scoring and conceding averages, and their offensive strength, indicated by the home venue averages. The away team's recent scoring (2.22) is higher than the home venue scoring (2.59), suggesting they may score more goals at home. Their conceding (1.86) is slightly higher than the home venue conceding (1.94), indicating they may concede goals more frequently at home.",
+        "Given the significant disparity in the away team's scoring and conceding averages, which favor TSG Hoffenheim, and the slight disparity in the home team's scoring and conceding averages, which favor OFI Crete, the isolated effect of these factors is predominantly in favor of TSG Hoffenheim. The total-goals estimate of 3.80 suggests a balanced match, with TSG Hoffenheim likely to score more goals, but the overall model suggests a slight favor towards OFI Crete. Therefore, I conclude that the numbers favor TSG Hoffenheim, and the total-goals estimate leans over, indicating a match where TSG Hoffenheim is likely to score more than 1.5 goals."
+      ],
+      image: "./assets/september/2026-09-17.png"
+    },
+    {
       id: "m16",
       date: "2026-09-16T20:00:00",
       championship: "UEFA, Europe League",
