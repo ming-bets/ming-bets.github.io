@@ -1,6 +1,21 @@
 (function () {
   const MATCHES = [
     {
+      id: "m19",
+      date: "2026-09-19T12:30:00",
+      championship: "England, Premier League",
+      teamA: { name: "Tottenham" },
+      teamB: { name: "Aston Villa" },
+      market: "BTTS Yes or Total Goals Over 2.5",
+      odds: "1.98",
+      paragraphs: [
+        "For Tottenham Hotspur, the key factors likely impacting their expected xG are their recent form (both scored and conceded), home venue advantage, recent xG performance, and the head-to-head record. Tottenham's home advantage is significant given their recent form and their team's tendency to play more defensively.",
+        "Aston Villa's recent form suggests they are a better counter-attacking team and could take advantage of Tottenham's defensive style. Their away form is strong, and their recent xG suggests they are a prolific attacking team. The head-to-head record also points towards Aston Villa having a better chance of scoring more goals.",
+        "Based on the computed results and the isolated effect of each non-default weight, Tottenham Hotspur's expected xG is slightly lower than Aston Villa's, favoring Aston Villa in terms of both team goals and total goals. The head-to-head blend weight of 100% further tilts the odds in Aston Villa's favor, making them the favored team in this match. The model predicts a slightly under total-goals estimate, tipping towards the under 2.5 goals, which aligns with the historical data and the isolated effect of the head-to-head blend weight."
+      ],
+      image: "./assets/september/2026-09-19.png"
+    },
+    {
       id: "m18",
       date: "2026-09-18T20:00:00",
       championship: "England, Premier League",
