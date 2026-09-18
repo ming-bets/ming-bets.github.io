@@ -1,6 +1,21 @@
 (function () {
   const MATCHES = [
     {
+      id: "m18",
+      date: "2026-09-18T20:00:00",
+      championship: "England, Premier League",
+      teamA: { name: "Brentford" },
+      teamB: { name: "Chelsea" },
+      market: "Chelsea",
+      odds: "2.48",
+      paragraphs: [
+        "For Brentford, the recent form indicates a balanced team that has scored and conceded around the league average in home matches. The xG and shots on target are relatively low compared to Chelsea, suggesting a more defensive style of play. The weight settings focus heavily on the home team style setting, which is set to balanced. The rest days for Brentford are less than for Chelsea, which slightly favors them.",
+        "Chelsea is an attacking team with a recent record of scoring more goals and conceding fewer goals away from home. Their xG and shots on target are notably higher than Brentford's, suggesting they might impose their style on the game. The weight settings place more emphasis on xG and shots on target, which favor Chelsea. The head-to-head history has a neutral impact on the total expected goals.",
+        "The computed results show that the model predicts a slight tilt towards Chelsea, resulting in a total of 3.13 expected goals, with Brentford expected to score more goals due to their home advantage and the balanced style setting. The head-to-head history is the most significant factor favoring Brentford, as it suggests a more balanced expectation. However, the home advantage and the fact that Chelsea has a higher xG and shots on target have a combined negative effect on the total expected goals, slightly lowering them. Therefore, I conclude that the numbers favor Chelsea slightly, with the total expected goals leaning under the 2.5 goal mark, suggesting an 'Under 2.5' outcome."
+      ],
+      image: "./assets/september/2026-09-18.png"
+    },
+    {
       id: "m17",
       date: "2026-09-17T17:45:00",
       championship: "UEFA, Europe League",
